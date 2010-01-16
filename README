@@ -1,3 +1,17 @@
+/** 
+ *
+ */
+private function buildNode(node:DaeNode):void {
+
+}
+
+/**
+ *
+ */
+private function buildScene():void {
+	buildNode(this.document.scene);
+}
+
 /**
  *
  */
