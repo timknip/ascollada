@@ -1,0 +1,15 @@
+/**
+ *
+ */
+public function parse (collada:XML) {
+	var document:DaeDocument = new DaeDocument();
+	this.document.addEventListener(Event.COMPLETE, onParseComplete);
+	this.document.read(collada);
+} 
+
+/**
+ * 
+ */
+private function onParseComplete(e:Event) : void {
+	buildScene();
+}
